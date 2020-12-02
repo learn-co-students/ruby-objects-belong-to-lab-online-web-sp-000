@@ -19,4 +19,4 @@ describe "Song" do
     song.artist = artist
     expect(song.artist.name).to eq("Beyonce")
   end
-end
+end 
