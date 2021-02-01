@@ -15,21 +15,25 @@ def initialize
 end 
 end 
 
+
+class Post 
+  attr_accessor :title, :author 
+
+  def initialize
+    @title = title 
+  end 
+end 
+
+
 class Author 
-  attr_accessor :name, :author  
+  attr_accessor :name  
   
   def initialize
     @name = name 
   end 
 end 
 
-class Post 
-  attr_accessor :title 
 
-  def initialize
-    @name = name 
-  end 
-end 
 
 
   
